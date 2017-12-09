@@ -1,0 +1,34 @@
+{
+    "manifest_version": 2,
+    "name": "Webextension Typescript Template",
+    "version": "0.1",
+    "description": "__MSG_extensionDescription__",
+    "applications": {
+        "gecko": {
+            "strict_min_version": "47.0"
+        }
+    },
+    "icons": {
+        "48": "icons/app.svg",
+        "96": "icons/app.svg"
+    },
+    "default_locale": "ja",
+    "permissions": [
+    ],
+    "browser_action": {
+        "browser_style": true,
+        "default_icon": {
+            "48": "icons/app.svg",
+            "96": "icons/app.svg"
+        },
+        "default_title": "__MSG_extensionDescription__",
+        "default_popup": "dist/popup/__MSG_@@ui_locale__/index.html"
+    },
+    "sidebar_action": {
+        "default_icon": "icons/app.svg",
+        "default_title": "__MSG_extensionDescription__",
+        "default_panel": "dist/sidebar/__MSG_@@ui_locale__/index.html"
+    },
+    "content_scripts": [
+    ]
+}

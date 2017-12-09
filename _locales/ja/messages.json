@@ -1,0 +1,16 @@
+{
+    "extensionDescription": {
+        "message": "Webextension Typescript Template",
+        "description": "拡張機能説明"
+    },
+    "errorMessage": {
+        "message": "エラー: $TITLE$",
+        "description": "エラーメッセージ",
+        "placeholders": {
+            "title": {
+                "content": "$1",
+                "example": "リソースが見つかりませんでした。"
+            }
+        }
+    }
+}

@@ -6,6 +6,12 @@ Webextensionsでいつも使ってるVisual Studio Code用のTypescriptテンプ
 
 実験的なコードのために毎回manifest.jsonを書くのが面倒だったので。
 
+## 構成
+
+- ローカライズする（_locales/ja/messages.json）
+- サイドバーあり
+- ポップアップあり
+
 ## 使い方
 
 srcフォルダの中の.tsファイルおよび.scssファイルがdistフォルダに展開される。gulpfile.js参照。

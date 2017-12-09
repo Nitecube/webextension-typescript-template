@@ -8,6 +8,8 @@ Webextensionsでいつも使ってるVisual Studio Code用のTypescriptテンプ
 
 ## 構成
 
+- Typescriptと一緒にSASSもビルドする
+- gulpでビルドする
 - ローカライズする（_locales/ja/messages.json）
 - サイドバーあり
 - ポップアップあり
@@ -18,8 +20,11 @@ srcフォルダの中の.tsファイルおよび.scssファイルがdistフォ�
 
 ## チェックリスト
 
-- [ ] manifest.json の書き換え。
-- [ ] _locales/ja/messages.json の書き換え。ローカライズが不要な場合は _locales を削除。
+- [ ] manifest.json の書き換え
+- [ ] package.json の書き換え
+- [ ] _locales/ja/messages.json の書き換え。ローカライズが不要な場合は _locales を削除
+- [ ] フォルダ名を変える
+- [ ] .git を削除
 - [ ] `yarn install`
 
 ## 実行
